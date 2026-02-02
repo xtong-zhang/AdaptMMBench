@@ -15,7 +15,7 @@
   <a href="https://adaptmmbench.github.io/">
     <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="ProjectPage">
   </a>
-  <a href="https://huggingface.co/datasets/xintongzhang/CoF-SFT-Data-5.4k">
+  <a href="https://huggingface.co/datasets/xintongzhang/AdaptMMBench">
     <img src="https://img.shields.io/badge/🤗 huggingface-Dataset-purple" alt="Dataset">
   </a>
 </div>
@@ -53,6 +53,8 @@
 <br>
 
 # Overview
+
+While adaptive multimodal reasoning shows great promise, current studies **lack an independent evaluation of the mode selection mechanism and often neglect fine-grained process analysis.** To address this gap, we propose AdaptMMBench, which isolates the assessment of **mode selection capability** by dynamically identifying model capability boundaries and utilizing the Matthews Correlation Coefficient (MCC). Furthermore, it facilitates **a multi-dimensional process evaluation** encompassing quality(key step coverage, tool effectiveness) and efficiency(reasoning turn, tool invocation frequency, token consumption). Our evaluation reveals that while adaptive mode selection scales with model capacity, it notably decouples from final accuracy. Furthermore, tool effectiveness exhibits significant inconsistency across different model architectures.
 
 <div align="center">
   <img src="assets/performance.png" alt="Performance" width="45%" />
