@@ -49,8 +49,7 @@
 
 
 # 🔥News
-- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench. Welcome to download and explore them! The code will be released soon.
-
+- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench.  The code will be released soon. Welcome to download and explore them!
 <br>
 
 # Overview
@@ -87,13 +86,6 @@ where $\epsilon$ is a small constant for numerical stability. MCC ranges from $[
 
 ### Reasoning Process Evaluation
 We evaluate the reasoning process from both **quality** and **efficiency** perspectives. Reasoning **quality** is measured by **key step coverage**, which assesses logical alignment with human-annotated solution steps, and **tool execution effectiveness**, which evaluates whether each tool invocation correctly serves the intended purpose of its corresponding reasoning step and is executed without errors. Reasoning **efficiency** is assessed using the number of **reasoning steps**, **tool invocation frequency**, and **total token consumption**.
-<!-- ## Citation
-If you find our project helpful, please consider citing it using the following reference:
-```bibtex
-@article{zhang2025chain,
-      title={Adaptive Chain-of-Focus Reasoning via Dynamic Visual Search and Zooming for Efficient VLMs},
-      author = {Zhang, Xintong and Gao, Zhi and Zhang, Bofei and Li, Pengxiang and Zhang, Xiaowen and Liu, Yang and Yuan, Tao and Wu, Yuwei and Jia, Yunde and Zhu, Song-Chun and Qing Li},
-      journal={arXiv preprint arXiv:2505.15436},
-      year={2025}
-}
-``` -->
+
+# Inference
+coming soon
