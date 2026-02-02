@@ -49,7 +49,7 @@
 
 
 # 🔥News
-- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench.  The code will be released soon. Welcome to download and explore them!
+- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench. Welcome to download and explore them!
 <br>
 
 # Overview
@@ -88,4 +88,4 @@ where $\epsilon$ is a small constant for numerical stability. MCC ranges from $[
 We evaluate the reasoning process from both **quality** and **efficiency** perspectives. Reasoning **quality** is measured by **key step coverage**, which assesses logical alignment with human-annotated solution steps, and **tool execution effectiveness**, which evaluates whether each tool invocation correctly serves the intended purpose of its corresponding reasoning step and is executed without errors. Reasoning **efficiency** is assessed using the number of **reasoning steps**, **tool invocation frequency**, and **total token consumption**.
 
 # Inference
-coming soon
+Coming soon...
