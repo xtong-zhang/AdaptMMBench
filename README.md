@@ -71,7 +71,7 @@ AdaptMMBench encompasses **1,420 samples** spanning **five domains: real-world, 
 ### Metrics
 ![evaluation_strategy](assets/evaluation_strategy.png)
 
-### Adaptive Mode Selection Evaluation
+<details><summary>Adaptive Mode Selection Evaluation</summary> 
 Adaptive intelligence depends on a model’s ability to judge whether its available information is sufficient to solve a task; therefore, reasoning mode selection should be evaluated independently of answer correctness. Under this principle, tasks solvable via text-only reasoning are labeled **Tool-Redundant**, while those requiring additional visual information are labeled **Tool-Required**. Mode selection is evaluated using a confusion matrix, where correct and incorrect tool invocation decisions correspond to TP, FN, TN, and FP cases.
 
 **Matthews Correlation Coefficient (MCC).** Because the proportion of tool-redundant and tool-required cases varies across models, leading to class imbalance, we adopt MCC as a robust evaluation metric.
@@ -83,9 +83,11 @@ $$
 $$
 
 where $\epsilon$ is a small constant for numerical stability. MCC ranges from $[-1,1]$, with $1$ indicating perfect agreement with the optimal mode selection, $0$ denoting the chance-level performance, and $-1$ indicating complete misalignment.
+</details>
 
-### Reasoning Process Evaluation
+<details><summary>Reasoning Process Evaluation</summary>
 We evaluate the reasoning process from both **quality** and **efficiency** perspectives. Reasoning **quality** is measured by **key step coverage**, which assesses logical alignment with human-annotated solution steps, and **tool execution effectiveness**, which evaluates whether each tool invocation correctly serves the intended purpose of its corresponding reasoning step and is executed without errors. Reasoning **efficiency** is assessed using the number of **reasoning steps**, **tool invocation frequency**, and **total token consumption**.
+</details>
 
 # Inference
 Coming soon...
