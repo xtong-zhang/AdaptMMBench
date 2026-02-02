@@ -49,21 +49,15 @@
 
 
 # 🔥News
-- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench. Welcome to download and explore them!
+- [2026/02/03] We released arxiv paper and data samples of AdaptMMBench. Welcome to download and explore them! The code will be released soon.
 
 <br>
 
 # Overview
 
 <div align="center">
-<div style="display: flex; justify-content: center; align-items: center;">
-  <div style="width: 50%; padding: 5px;">
-    <img src="assets/performance.png" alt="Performance" style="width: 100%;" />
-  </div>
-  <div style="width: 45%; padding: 5px;">
-    <img src="assets/pie_data.png" alt="Data Distribution" style="width: 100%;" />
-  </div>
-</div>
+  <img src="assets/performance.png" alt="Performance" width="45%" />
+  <img src="assets/pie_data.png" alt="Data Distribution" width="45%" />
 </div>
 
 <br>
