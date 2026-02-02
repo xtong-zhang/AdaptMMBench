@@ -20,7 +20,7 @@
   </a>
 </div>
 
-
+<!-- 
 <br>
 <span>
 <b>Authors:</b> 
@@ -45,7 +45,7 @@
 <sup>5</sup>Alibaba Group
 <br />
 <sup>*</sup>Core contribution, <sup>†</sup>Project supervisor, <sup>‡</sup>Equal contribution, <sup>✉️</sup>Corresponding authors
-</span>
+</span> -->
 
 
 # 🔥News
