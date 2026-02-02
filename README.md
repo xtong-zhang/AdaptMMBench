@@ -91,6 +91,3 @@ where $\epsilon$ is a small constant for numerical stability. MCC ranges from $[
 
 We evaluate the reasoning process from both **quality** and **efficiency** perspectives. Reasoning **quality** is measured by **key step coverage**, which assesses logical alignment with human-annotated solution steps, and **tool execution effectiveness**, which evaluates whether each tool invocation correctly serves the intended purpose of its corresponding reasoning step and is executed without errors. Reasoning **efficiency** is assessed using the number of **reasoning steps**, **tool invocation frequency**, and **total token consumption**.
 </details>
-
-# Inference
-Coming soon...
