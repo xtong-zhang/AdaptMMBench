@@ -57,19 +57,19 @@
 
 <div align="center">
   <img src="assets/performance.png" alt="Performance" width="45%" />
-  <img src="assets/pie_data.png" alt="Data Distribution" width="45%" />
+  <img src="assets/pie_data.png" alt="Data Distribution" width="40%" />
 </div>
 
 <br>
 
 # AdaptMMBench
 
-## Benchmark
+### Benchmark
 ![overview_data](assets/overview_data.png)
 
 AdaptMMBench encompasses **1,420 samples** spanning **five domains: real-world, OCR, GUI, math, and knowledge**. To ensure a comprehensive evaluation, the dataset spans a range of difficulty levels, balancing tasks that can be solved through text-only reasoning with those that require **adaptive tool invocation**, such as zooming and image transformations (e.g., rotation and contrast adjustment). Benchmark quality is maintained through a rigorous multi-stage verification pipeline, in which human annotators and GPT-5 collaboratively validate **bounding box annotations** and **key reasoning steps**.
 
-## Metrics
+### Metrics
 ![evaluation_strategy](assets/evaluation_strategy.png)
 
 ### Adaptive Mode Selection Evaluation
