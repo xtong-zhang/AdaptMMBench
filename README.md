@@ -8,12 +8,11 @@
 
   <br>
 
-
-  <a href="https://arxiv.org/abs/2505.15436v2">
-    <img src="https://img.shields.io/badge/ArXiv-CoF-brown?logo=arxiv" alt="Paper">
-  </a>
   <a href="https://adaptmmbench.github.io/">
     <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="ProjectPage">
+  </a>
+  <a href="https://arxiv.org/abs/2505.15436v2">
+    <img src="https://img.shields.io/badge/ArXiv-CoF-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://huggingface.co/datasets/xintongzhang/AdaptMMBench">
     <img src="https://img.shields.io/badge/🤗 huggingface-Dataset-purple" alt="Dataset">
