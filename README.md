@@ -11,8 +11,8 @@
   <a href="https://adaptmmbench.github.io/">
     <img src="https://img.shields.io/badge/-HomePage-black?logo=github" alt="ProjectPage">
   </a>
-  <a href="https://arxiv.org/abs/2505.15436v2">
-    <img src="https://img.shields.io/badge/ArXiv-CoF-brown?logo=arxiv" alt="Paper">
+  <a href="https://arxiv.org/pdf/2602.02676">
+    <img src="https://img.shields.io/badge/ArXiv-AdaptMMBench-brown?logo=arxiv" alt="Paper">
   </a>
   <a href="https://huggingface.co/datasets/xintongzhang/AdaptMMBench">
     <img src="https://img.shields.io/badge/🤗 huggingface-Dataset-purple" alt="Dataset">
