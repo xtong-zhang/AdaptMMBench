@@ -92,3 +92,15 @@ Adaptive intelligence depends on a model’s ability to judge whether its availa
 
 We evaluate the reasoning process from both **quality** and **efficiency** perspectives. Reasoning **quality** is measured by **key step coverage**, which assesses logical alignment with human-annotated solution steps, and **tool execution effectiveness**, which evaluates whether each tool invocation correctly serves the intended purpose of its corresponding reasoning step and is executed without errors. Reasoning **efficiency** is assessed using the number of **reasoning steps**, **tool invocation frequency**, and **total token consumption**.
 </details>
+
+
+## Citation
+If you find our project helpful, please consider citing it using the following reference:
+```bibtex
+@article{zhang2026adaptmmbench,
+      title={AdaptMMBench: Benchmarking Adaptive Multimodal Reasoning for Mode Selection and Reasoning Process},
+      author={Zhang, Xintong and Zhang, Xiaowen and Wu, Jongrong and Gao, Zhi and Yan, Shilin and Diao, Zhenxin and Gao, Kunpeng and Chen, Xuanyan and Wu, Yuwei and Jia, Yunde and others},
+      journal={arXiv preprint arXiv:2602.02676},
+      year={2026}
+}
+```
